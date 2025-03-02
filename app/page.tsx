@@ -12,17 +12,17 @@ export default function Home() {
     code: {
       title: "Ops Teams Write IaC",
       text: "DevOps and Platform teams use the infrastructure-as-code tools they know, such as Terraform / OpenTofu, Helm, or CloudFormation, and package them into use-case-specific modules with your policy tooling built in.\n\nYour IaC is no longer just config, it's a functional software asset. Policy and cost tools are embedded, cutting down maintenance for Ops teams.",
-      image: "/images/code-example.png"
+      image: "/images/publish.png"
     },
     publish: {
       title: "Publishing Infrastructure",
       text: "Teams can publish infrastructure modules with built-in governance and security best practices, ensuring deployment consistency and compliance.",
-      image: "/images/publish-example.png"
+      image: "/images/code.png"
     },
     diagram: {
       title: "Visualizing Infrastructure",
       text: "Gain full visibility into your infrastructure through interactive diagrams that showcase dependencies and real-time status updates.",
-      image: "/images/diagram-example.png"
+      image: "/images/diagram.png"
     }
   };
 
@@ -39,8 +39,14 @@ export default function Home() {
       <header className="header">
         <div className="header-content container">
           <div className="logo">
-            <Image src="/logo.jpg" width={50} height={50} alt="Massdriver Logo" className="logo-img" />
-            <span className="logo-text">massdriver</span>
+          <Image 
+  src="/logo.jpg" 
+  width={50} 
+  height={25} 
+  alt="Massdriver Logo" 
+  className="logo-img" 
+  layout="intrinsic"
+/>            <span className="logo-text">massdriver</span>
           </div>
           <nav className="nav">
             <button className="menu-toggle" aria-label="Toggle navigation">☰</button>
