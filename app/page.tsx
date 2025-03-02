@@ -12,17 +12,17 @@ export default function Home() {
     code: {
       title: "Ops Teams Write IaC",
       text: "DevOps and Platform teams use the infrastructure-as-code tools they know, such as Terraform / OpenTofu, Helm, or CloudFormation, and package them into use-case-specific modules with your policy tooling built in.\n\nYour IaC is no longer just config, it's a functional software asset. Policy and cost tools are embedded, cutting down maintenance for Ops teams.",
-      image: "/images/publish.png"
+      image: "/publish.png"
     },
     publish: {
       title: "Publishing Infrastructure",
       text: "Teams can publish infrastructure modules with built-in governance and security best practices, ensuring deployment consistency and compliance.",
-      image: "/images/code.png"
+      image: "/code.png"
     },
     diagram: {
       title: "Visualizing Infrastructure",
       text: "Gain full visibility into your infrastructure through interactive diagrams that showcase dependencies and real-time status updates.",
-      image: "/images/diagram.png"
+      image: "/diagram.png"
     }
   };
 
